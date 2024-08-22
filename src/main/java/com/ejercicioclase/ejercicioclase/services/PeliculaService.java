@@ -8,7 +8,7 @@ import com.ejercicioclase.ejercicioclase.domain.entities.Pelicula;
 public interface PeliculaService {
     List<Pelicula> findAll();
 
-    Optional<Pelicula> findById(Integer id);
+    Optional<Pelicula> findById(Long id);
 
     Pelicula save(Pelicula pelicula);
 

@@ -8,7 +8,7 @@ import com.ejercicioclase.ejercicioclase.domain.entities.Inventario;
 public interface InventarioService {
     List<Inventario> findAll();
 
-    Optional<Inventario> findById(Integer id);
+    Optional<Inventario> findById(Long id);
 
     Inventario save(Inventario inventario);
 

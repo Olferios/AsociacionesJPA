@@ -6,7 +6,7 @@ import com.ejercicioclase.ejercicioclase.domain.entities.Pais;
 
 public interface PaisService {
      List<Pais> findAll();
-Optional<Pais> findById(Integer id);
+Optional<Pais> findById(short id);
 Pais save(Pais pais);
 Pais update(Long id);
 Optional<Pais> delete(Long id);
